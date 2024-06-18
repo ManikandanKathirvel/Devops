@@ -15,6 +15,11 @@ public class controller {
 	public String getMethodName() {
 		return "getting";
 	}
+	@GetMapping("/add")
+	public String getadd() {
+		return "addedd";
+	}
+	
 	
 
 }
